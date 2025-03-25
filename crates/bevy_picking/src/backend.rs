@@ -178,7 +178,8 @@ pub mod ray {
     /// ```
     #[derive(Clone, Debug, Default, Resource)]
     pub struct RayMap {
-        map: HashMap<RayId, Ray3d>,
+        /// doc
+        pub map: HashMap<RayId, Ray3d>,
     }
 
     impl RayMap {
